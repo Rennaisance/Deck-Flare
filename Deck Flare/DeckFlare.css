@@ -1,0 +1,88 @@
+/*selector (Element; .Class(can have multiple); 
+#ID (only one); ) {
+	property1: value;
+	property2: value;
+}*/
+
+/*Generic------------------------------------------------------------------------------------*/
+Body {
+	background-color: #d6d6d6;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+
+/*Link Fixing--------------------------------------------------------------------------------*/
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #000;
+}
+
+
+/*Top Nav Bar--------------------------------------------------------------------------------*/
+
+/*format for the Nav bar*/
+Header {
+	background-color: #f73718;
+	background-size: 100px 100px 0px 100px;
+	padding: 10px 0px 10px 0px;
+	margin: -8px -19px 0 -19px;
+	box-shadow: 0 0 10px 0 #000;
+	min-width: 675px;
+}
+
+/*fixes spacing issues for the floating*/
+Header::after{
+	content: '';
+	display: table;
+	clear: both;
+} 
+
+/*changes the image size of the logo*/
+.logo img {
+	width: 5%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	margin-left: 40px;
+	padding-bottom: 5px;
+}
+
+/*puts the nav text on the top right*/
+nav {
+	float: right;
+	margin-right: 30px;
+	padding: 0;
+	min-width: 165px;
+}
+
+/*formating for the Nav Text*/
+nav a {
+	display: inline-block;
+	margin-left: 50px;
+	padding-top: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+/*creates the highlight in the navbar property*/
+nav a:hover {
+	color: #ffffff;
+}
+
+
+
+/*Bottom Nav Bar-----------------------------------------------------------------------------*/
+
+
+.botnav img{
+	float: right;
+	width: 50px;
+	height: 50px;
+
+}
