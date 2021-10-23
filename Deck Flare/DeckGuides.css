@@ -1,0 +1,31 @@
+article {
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+article h1 {
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+.overview {
+
+}
+
+
+.card {
+ 	width: 221px;
+ 	height: 324px;
+ 	margin: 30px;
+ 	display: inline-block;
+ 	transition: all .25s ease;
+ }
+
+
+.field {
+	padding: 25px;
+}
+
+.card:hover {
+	transform: scale(2);
+}

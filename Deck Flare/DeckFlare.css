@@ -11,6 +11,12 @@ Body {
 	font-size: 15px;
 }
 
+@media all and (max-width: 999px) {
+	nav {
+		width: auto;
+
+	}
+}
 
 /*Link Fixing--------------------------------------------------------------------------------*/
 a {
@@ -28,9 +34,9 @@ Header {
 	background-color: #f73718;
 	background-size: 100px 100px 0px 100px;
 	padding: 10px 0px 10px 0px;
-	margin: -8px -19px 0 -19px;
+	margin: -8px -8.4px;
 	box-shadow: 0 0 10px 0 #000;
-	min-width: 675px;
+	min-width: 1000px;
 }
 
 /*fixes spacing issues for the floating*/
@@ -46,20 +52,32 @@ Header::after{
 	height: auto;
 	float: left;
 	overflow: hidden;
-	margin-left: 40px;
+	margin: 0 0 0 5%;
 	padding-bottom: 5px;
+}
+.menu {
+
 }
 
 /*puts the nav text on the top right*/
-nav {
+.menu {
 	float: right;
 	margin-right: 30px;
 	padding: 0;
 	min-width: 165px;
 }
 
+.menu.dropdown {
+	width: 100%;
+	height: inherit;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
 /*formating for the Nav Text*/
-nav a {
+.menu a {
+	height: inherit;
 	display: inline-block;
 	margin-left: 50px;
 	padding-top: 25px;
@@ -68,13 +86,15 @@ nav a {
 	font-family: sans-serif;
 	font-weight: bolder;
 	text-decoration: none;
+	list-style-type: none;
+	transition: .2s ease-in-out;
+	font-size: 20px;	
 }
 
 /*creates the highlight in the navbar property*/
-nav a:hover {
+.menu a:hover {
 	color: #ffffff;
 }
-
 
 
 /*Bottom Nav Bar-----------------------------------------------------------------------------*/
@@ -84,5 +104,10 @@ nav a:hover {
 	float: right;
 	width: 50px;
 	height: 50px;
+	transition: .25s ease-in-out;
+	padding: 6px;
+}
 
+.botnav img:hover {
+	transform: scale(1.5);
 }

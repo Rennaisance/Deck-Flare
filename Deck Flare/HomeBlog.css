@@ -1,9 +1,9 @@
-.Decks {
+.Updated {
 	margin-left: 100px;
 	margin-right: 100px;
 }
 
-.Decks h1 {
+.Updated h1 {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 40px;
@@ -22,7 +22,7 @@
 	text-align: center;
 }
 
-.Decks img{
+.Updated img{
 	border-radius: 12px;
 	border: 5px solid #000000;
 }
@@ -39,7 +39,7 @@
   	height: 225px;
   	width: 344px;
   	opacity: 0;
-  	transition: all .25s ease;
+  	transition: .25s ease;
   	background-color: rgb(252, 186, 3, 0.5);
 }
 
