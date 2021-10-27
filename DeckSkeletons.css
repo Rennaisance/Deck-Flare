@@ -1,0 +1,154 @@
+.Decks {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.Decks h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 40px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column {
+	display: inline-block;
+	position: relative;
+	flex: 25%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.Decks img{
+	border-radius: 12px;
+	border: 5px solid #000000;
+}
+
+
+/*HOVER OVERLAY CODE-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.ksoverlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -51%);
+	border-radius: 12px;
+	border: 1px solid #000000;
+  	height: 225px;
+  	width: 344px;
+  	opacity: 0;
+  	transition: all .25s ease;
+  	background-color: rgb(252, 186, 3, 0.5);
+}
+
+.deoverlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -51%);
+	border-radius: 12px;
+	border: 1px solid #000000;
+  	height: 225px;
+  	width: 344px;
+  	opacity: 0;
+  	transition: .25s ease;
+  	background-color: rgb(252, 3, 3, 0.5);
+}
+
+.dsoverlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -51%);
+	border-radius: 12px;
+	border: 1px solid #000000;
+  	height: 225px;
+  	width: 344px;
+  	opacity: 0;
+  	transition: .25s ease;
+  	background-color: rgb(252, 3, 252, 0.5);
+}
+
+.bgoverlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -51%);
+	border-radius: 12px;
+	border: 1px solid #000000;
+  	height: 225px;
+  	width: 344px;
+  	opacity: 0;
+  	transition: .25s ease;
+  	background-color: rgb(255, 255, 255, 0.4);
+}
+
+.zoooverlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -51%);
+	border-radius: 12px;
+	border: 1px solid #000000;
+  	height: 225px;
+  	width: 344px;
+  	opacity: 0;
+  	transition: .25s ease;
+  	background-color: rgb(47, 255, 0, 0.5);
+}
+
+.mgoverlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -51%);
+	border-radius: 12px;
+	border: 1px solid #000000;
+  	height: 225px;
+  	width: 344px;
+  	opacity: 0;
+  	transition: .25s ease;
+  	background-color: rgb(0, 187, 255, 0.5);
+}
+
+.ksoverlay:hover {
+	opacity: 1;
+}
+
+.deoverlay:hover {
+	opacity: 1;
+}
+
+.dsoverlay:hover {
+	opacity: 1;
+}
+
+.bgoverlay:hover {
+	opacity: 1;
+}
+
+.zoooverlay:hover {
+	opacity: 1;
+}
+
+.mgoverlay:hover {
+	opacity: 1;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.deckname {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 45px;
+	opacity: 1;
+	font-weight: bolder;
+	user-select: none;
+	color: white;
+	-webkit-text-stroke: 2.25px black;
+}

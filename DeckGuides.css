@@ -1,0 +1,38 @@
+article {
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 200px;
+	font-size: 18px;
+}
+article h1 {
+	font-size: 40px;
+	text-decoration: underline;
+}
+@media only all and (max-width: 1000px) {
+	article {
+		margin: 0px;
+	}
+}
+
+.container {
+  	margin: 10px;
+  	max-width: 1500px;
+  	position: clip;
+  	overflow: auto;
+  }
+
+.container img {
+    margin: 30px 30px 50px 0;
+    float: left;
+  }
+  
+.container text {
+    display: inline;
+	}
+
+.card {
+ 	width: 221px;
+ 	height: 324px;
+ 	margin: 30px;
+ 	transition: all .25s ease;
+ }
